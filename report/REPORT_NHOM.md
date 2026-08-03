@@ -1,7 +1,12 @@
 # Báo Cáo Nhóm — Lab 7: Embedding & Vector Store
-
 **Nhóm:** NEXACO
-**Thành viên:** Lê Văn Long (2A202601711), Nguyễn Ngọc Dương (2A202601717)
+
+**Thành viên:**
+| Họ và tên | Mã học viên | Phương pháp Chunking chính |
+|----------------|------|-------------------|
+| Nguyễn Ngọc Dương | 2A202601717 | `SemanticChunker` (Custom Embedding-driven) |
+| Lê Văn Long | 2A202601711 | `RecursiveChunker` / `HeadingChunker` |
+
 **Ngày:** 03/08/2026
 
 > **Nộp 1 bản / nhóm.** Phần cá nhân (hướng tiếp cận, kết quả riêng, dự đoán…) mỗi thành viên nộp riêng trong `REPORT_CANHAN.md`. Chi tiết thang điểm: `docs/SCORING.md`.
@@ -169,8 +174,8 @@ def chunk(self, text):
 
 | Tiêu chí | Điểm tự đánh giá |
 |----------|-------------------|
-| Lựa chọn tài liệu (Document Set Quality) | / 10 |
-| Thiết kế chiến lược (Strategy Design) | / 15 |
-| Chất lượng truy xuất (Retrieval Quality) | / 10 |
-| Thuyết trình (Demo) | / 5 |
-| **Tổng phần nhóm** | **/ 40** |
+| Lựa chọn tài liệu (Document Set Quality) | 10/ 10 |
+| Thiết kế chiến lược (Strategy Design) |15 / 15 |
+| Chất lượng truy xuất (Retrieval Quality) | 10/ 10 |
+| Thuyết trình (Demo) | 5/ 5 |
+| **Tổng phần nhóm** | **40/ 40** |
